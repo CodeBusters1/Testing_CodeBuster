@@ -7,8 +7,8 @@ package bcccp.tickets.adhoc;
 
 /**
  *
- * @author Sakuragi-Kun
+ * @author Suyog Rajbhandari
  */
 public class Test_Adhoc {
-    
+    // main method
 }
