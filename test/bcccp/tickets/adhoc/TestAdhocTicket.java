@@ -16,7 +16,13 @@ public class TestAdhocTicket{
         /** Creating the instance of AdhocTicket**/
         AdhocTicket ticket = new AdhocTicket("Glenroy001", 113, "A6A09E667F3BCD 2011-12-8,22:13:30.0"); 
         /** printing the getter TicketNo method**/
-        System.out.println("Unique CarParkId is: "+ ticket.getTicketNo());     
-        System.out.println("Unique CarParkId is: "+ ticket.getTicketNo());     
+        /** printing the getter TicketNo method**/
+        System.out.println("Unique CarParkId is: "+ ticket.getTicketNo());
+        /** printing the getter CarParkId method**/
+        System.out.println("Unique CarParkId is: "+ ticket.getCarparkId());
+        /** printing the getter BarCode method**/
+        System.out.println("Unique BarCode is: "+ ticket.getBarcode());
+        
+        System.out.println("Unique datetime is: "+ ticket.getEntryDateTime());    
     }
 }
