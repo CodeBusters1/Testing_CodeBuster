@@ -20,9 +20,10 @@ public class TestAdhocTicket{
         System.out.println("Unique CarParkId is: "+ ticket.getTicketNo());
         /** printing the getter CarParkId method**/
         System.out.println("Unique CarParkId is: "+ ticket.getCarparkId());
+        
         /** printing the getter BarCode method**/
         System.out.println("Unique BarCode is: "+ ticket.getBarcode());
         
-        System.out.println("Unique datetime is: "+ ticket.getEntryDateTime());    
+          
     }
 }
