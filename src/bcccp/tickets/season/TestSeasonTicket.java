@@ -28,6 +28,11 @@ public class TestSeasonTicket {
         SeasonTicket ticket2 = new SeasonTicket("S00112","",12022017,120320170);
 
         System.out.println("Unique CarParkId is: "+ ticket2.getCarparkId()); 
+        
+        System.out.println("Throwing an exception when Start Date is less than or equal to zero.");
+        SeasonTicket ticket3 = new SeasonTicket("S0011","CP3",0,120320170 ); 
+
+        System.out.println("Your Ticket Start at : "+ ticket3.getStartValidPeriod()); 
 
         
     }
