@@ -15,9 +15,13 @@ public class TestSeasonTicket {
         /** printing the main**/        
         System.out.println("This is Testing TestSeasonTicket main before testing....");
         /** Creating the instance of SeasonTicket**/
-        SeasonTicket ticket = new SeasonTicket("S0011","CP3", 0,0 ); 
-        /** printing the getter Ticket Id And Carpark  method**/
-        System.out.println("Unique Season Ticket Id is: "+ ticket.getId());     
-        System.out.println("Unique CarParkId is: "+ ticket.getCarparkId());     
+       // SeasonTicket ticket = new SeasonTicket("S0011","CP3",12022017,120320170 ); 
+        /** printing the getter Ticket Id And Car park  method**/
+        //System.out.println("Unique Season Ticket Id is: "+ ticket.getId());     
+        //System.out.println("Unique CarParkId is: "+ ticket.getCarparkId()); 
+        
+         System.out.println("Throwing an exception when season ticket id is null ");
+        SeasonTicket ticket1 = new SeasonTicket("0","CP3",12022017,120320170);
+        System.out.println("Unique Season Ticket Id is: "+ ticket1.getId()); 
     }
 }
