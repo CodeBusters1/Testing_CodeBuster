@@ -7,7 +7,7 @@ package bcccp.tickets.adhoc;
 
 /**
  *
- * @author Suyog Rajbhandari
+ * @author 
  */
 public class TestAdhocTicket{
     public static void main(String[] args){
