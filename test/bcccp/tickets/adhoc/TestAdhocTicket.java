@@ -24,6 +24,8 @@ public class TestAdhocTicket{
         /** printing the getter BarCode method**/
         System.out.println("Unique BarCode is: "+ ticket.getBarcode());
         
+        System.out.println("get charge" + ticket.getExitDateTime());
+        
           
     }
 }
