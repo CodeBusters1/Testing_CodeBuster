@@ -25,14 +25,14 @@ public class TestAdhocTicket{
         /** printing the getter BarCode method**/
         System.out.println("Unique BarCode is: "+ ticket.getBarcode());
         System.out.println("Unique datetime is: "+ ticket.getEntryDateTime());
-        
+        // testing id number if the id is less than or equal to zero
         AdhocTicket test2 = new AdhocTicket("Glenroy001", 113, "A6A09E667F3BCD 2011-12-8,22:13:30.0"); 
         System.out.println("RuntimeException if the id number is less than or equal to zero "+ test2.getCarparkId());
-        
+        //testing barcode number is less than or equal to zero
         AdhocTicket test3 = new AdhocTicket("Glenroy001", 113, "0"); 
         System.out.println("RuntimeException if the barcode number is less than or equal to zero "+ test3.getBarcode());
         //testing carpark name when it is null
         AdhocTicket test4 = new AdhocTicket("", 113, "A6A09E667F3BCD 2011-12-8,22:13:30.0"); 
-        System.out.println("RuntimeException if the carpark  is null "+ test4.getCarparkId());
+        System.out.println("RuntimeException if the carpark name  is null "+ test4.getCarparkId());
     }
 }
