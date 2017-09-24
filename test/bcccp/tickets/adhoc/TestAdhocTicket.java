@@ -15,11 +15,11 @@ public class TestAdhocTicket{
         System.out.println("This is Testing TestAdhocTicket main before testing....");
         /** Creating the instance of AdhocTicket**/
         AdhocTicket ticket = new AdhocTicket("0", 113, "A6A09E667F3BCD 2011-12-8,22:13:30.0"); 
-        /** printing the getter TicketNo method**/
+        /** Testing CarParkId if the id is null or zero**/
         
-        System.out.println("RuntimeException if the id number is less than or equal to zero "+ ticket.getCarparkId());
-        
-        
+      
+        AdhocTicket test3 = new AdhocTicket("Glenroy001", 113, "0"); 
+        System.out.println("RuntimeException if the barcode number is less than or equal to zero "+ test3.getBarcode());
           
     }
 }
