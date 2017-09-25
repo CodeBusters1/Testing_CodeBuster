@@ -28,7 +28,9 @@ enCon.carEventDetected("Detect 003", false);
 
 //testing buttonPushed method
 enCon.buttonPushed();
-    
+
+//test TicketInserted method
+enCon.ticketInserted("AAA001");
  }
     
 }
