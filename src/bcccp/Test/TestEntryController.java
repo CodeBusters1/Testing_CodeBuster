@@ -42,6 +42,12 @@ enCon.notifyCarparkEvent();
  EntryController controller = new EntryController(carpark, entryGate, os, is, ui);
     controller.buttonPushed();
     controller.carEventDetected("CAR5", true);
+    
+    
+    controller.ticketInserted("CAR5");
+    controller.ticketTaken();
+    
+    
  }
     
 }
