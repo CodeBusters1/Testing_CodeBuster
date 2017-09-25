@@ -20,6 +20,10 @@ public class CarparkTest {
             //Test calculateAddHocTicketCharge method
             float charge=cCon. calculateAddHocTicketCharge(23);
             System.out.println(charge);
+            
+            //test isSeasonTicketValid method
+            boolean state=cCon.isSeasonTicketValid("012356");
+           System.out.println(state);
     
 }
 }
