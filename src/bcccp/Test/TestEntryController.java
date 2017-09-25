@@ -25,6 +25,9 @@ enCon.carEventDetected("Detect 002", true);
 
 //check careventDetected method status equals to false
 enCon.carEventDetected("Detect 003", false);
+
+//testing buttonPushed method
+enCon.buttonPushed();
     
  }
     
