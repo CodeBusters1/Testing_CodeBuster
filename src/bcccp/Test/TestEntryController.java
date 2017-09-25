@@ -13,8 +13,13 @@ import bcccp.carpark.entry.EntryController;
 public class TestEntryController {
     public static void main(String[] args){
         
+//Creating object and testing log function
 EntryController enCon = new EntryController();
 enCon.log("Roshan Basnet");
-    }
+
+//passing value to carEventDetected method to test the values
+enCon.carEventDetected("Detect 001", true);
+    
+ }
     
 }
