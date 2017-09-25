@@ -31,6 +31,9 @@ enCon.buttonPushed();
 
 //test TicketInserted method
 enCon.ticketInserted("AAA001");
+
+//test NotifyCarparkEvent method
+enCon.notifyCarparkEvent();
  }
     
 }
