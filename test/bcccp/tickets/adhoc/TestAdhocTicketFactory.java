@@ -19,7 +19,9 @@ public class TestAdhocTicketFactory {
         System.out.print(Adhoc_TicketFactory.make("csu1106", 12));
         //testing when the carParkId is null
         System.out.print(Adhoc_TicketFactory.make(null, 12));
-        //testing when the ticketid is null
+        //testing when the ticketid is zero
         System.out.print(Adhoc_TicketFactory.make("csu1106", 0));
+        //testing when the ticketid is zero and carParkId is null
+        System.out.print(Adhoc_TicketFactory.make(null, 0));
     }
 }
