@@ -12,7 +12,7 @@ import bcccp.carpark.Carpark;
 public class CarparkTest {
     public static void main(String [] args){
         
-        //10th commit check getname of the carpark class
+        //Test carpark class get name method
             Carpark cCon=new Carpark();
             String c=cCon.getName();
             System.out.println(c);
