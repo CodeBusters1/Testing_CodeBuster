@@ -16,6 +16,8 @@ public class TestAdhocTicketFactory {
         // creating object of AdhocTicketFactory
         AdhocTicketFactory Adhoc_TicketFactory = new AdhocTicketFactory();
         // printing the make method by passing carParkId and ticket no
-        System.out.print(Adhoc_TicketFactory.make("glenroy", 12));
+        System.out.print(Adhoc_TicketFactory.make("csu1106", 12));
+        //testing when the carParkId is null
+        System.out.print(Adhoc_TicketFactory.make(null, 12));
     }
 }
