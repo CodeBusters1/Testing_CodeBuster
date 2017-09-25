@@ -6,6 +6,8 @@
 package bcccp.Test;
 
 import bcccp.carpark.entry.EntryController;
+import bcccp.carpark.CarSensor;
+import bcccp.carpark.entry.EntryUI;
 /**
  *
  * @author roshan
@@ -34,6 +36,12 @@ enCon.ticketInserted("AAA001");
 
 //test NotifyCarparkEvent method
 enCon.notifyCarparkEvent();
+
+ CarSensor os = new CarSensor("CAR5", 1, 2);
+ EntryUI ui = new EntryUI(1, 2);
+ EntryController controller = new EntryController(carpark, entryGate, os, is, ui);
+    controller.buttonPushed();
+    controller.carEventDetected("CAR5", true);
  }
     
 }
