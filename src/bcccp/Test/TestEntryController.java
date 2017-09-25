@@ -19,6 +19,9 @@ enCon.log("Roshan Basnet");
 
 //passing value to carEventDetected method to test the values
 enCon.carEventDetected("Detect 001", true);
+
+//check carevent detected idle status in entryController class 
+enCon.carEventDetected("Detect 002", true);
     
  }
     
