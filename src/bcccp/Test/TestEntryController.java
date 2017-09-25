@@ -22,6 +22,9 @@ enCon.carEventDetected("Detect 001", true);
 
 //check carevent detected idle status in entryController class 
 enCon.carEventDetected("Detect 002", true);
+
+//check careventDetected method status equals to false
+enCon.carEventDetected("Detect 003", false);
     
  }
     
