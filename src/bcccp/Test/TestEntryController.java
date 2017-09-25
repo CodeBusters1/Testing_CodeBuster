@@ -45,7 +45,10 @@ enCon.notifyCarparkEvent();
     
     
     controller.ticketInserted("CAR5");
+    //controller.ticketTaken();
+    
     controller.ticketTaken();
+    controller.notifyCarparkEvent();
     
     
  }
